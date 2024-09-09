@@ -82,10 +82,11 @@
 - The model performs well with an overall accuracy of 87%.
 - It shows strong precision and recall for the 'APPROVED' class, indicating reliable predictions for this class.
 - The 'DECLINED' class has slightly lower performance metrics, particularly in recall, suggesting room for improvement in identifying 'DECLINED' cases.
+![Confusion Matrix](https://github.com/user-attachments/assets/382ddbeb-c60f-4ea5-9130-062edf1f592d)
+
+
 
 ### Feature Insights
 - The feature importance plot provides insights into which features contribute most to the model's predictions. This can be useful for understanding the factors driving the decisions.
+![Feature](https://github.com/user-attachments/assets/467afbb4-dc6e-4a3c-98d0-bc20cccdecf1)
 
-### Next Steps
-- Investigate further to understand why the model struggles with 'DECLINED' predictions and consider additional feature engineering or model tuning.
-- Validate the model's predictions on new data and ensure that it generalizes well to unseen cases.
